@@ -277,6 +277,7 @@ unique_ids:
     lendor_registration_form.dashboard.view_borrower_loan_request.Borr_loan_request.RowTemplate11: '1700543062684858008325535.9921'
     admin.dashboard.loan_management.lapsed_loans.ItemTemplate23: '170712932240636529702505.68765'
     admin.dashboard.manage_cms.add_lender_dropdown_details.lending_type: '1706532092749385411492768.6154'
+    admin.dashboard.loan_management.closed_loans.ItemTemplate31.ItemTemplate38: '1709535429167229676228989.3426'
     admin.dashboard.home_button_admin: '1706595991042717143199814.3754'
     admin.dashboard.loan_management.one_time_settlement: '1707378247720454790240248.4296'
     lendor_registration_form.lender_registration_form_4_bank_form_1: '1699429435323170866799491.21808'
