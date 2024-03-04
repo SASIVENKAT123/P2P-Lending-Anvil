@@ -64,9 +64,13 @@ components:
       - {property: items, code: 'self.item[''loan_id'']'}
       layout_properties: {grid_position: 'NLPSPV,OKZZXW'}
 - name: repeating_panel_2
-  properties: {item_template: bank_users.repeating_panels.admin}
+  properties: {item_template: admin.dashboard.loan_management.not_payable_amount.ItemTemplate41}
   type: RepeatingPanel
-  layout_properties: {grid_position: 'FLFHDM,CXTXNL'}
+  layout_properties: {grid_position: 'PMDJTP,NHYBJP'}
+- name: repeating_panel_3
+  properties: {item_template: admin.dashboard.loan_management.not_payable_amount.ItemTemplate40}
+  type: RepeatingPanel
+  layout_properties: {grid_position: 'WMGYNU,EQPILA'}
 - type: Button
   properties: {role: elevated-button, align: center, tooltip: '', border: '', enabled: true,
     foreground: white, visible: true, text: Back, font_size: null, font: '16', spacing_above: small,

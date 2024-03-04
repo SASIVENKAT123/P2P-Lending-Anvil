@@ -55,7 +55,9 @@ class not_payable_amount(not_payable_amountTemplate):
       for i in self.index:
         self.result.append({'loan_id' : self.list_1[i], 'coustmer_id' : self.list_2[i], 'full_name' : self.list_3[i], 'loan_status' : self.list_4[i],'lendor_full_name' : self.list_5[i],'lender_customer_id':self.list_6[i],'interest_rate':self.list_7[i],'tenure':self.list_8[i],'loan_amount':self.list_9[i],'lender_timestamp':self.list_10[i]})
 
-      self.repeating_panel_2.items = self.result
+      self.repeating_panel_3.items = self.result
 
   def button_1_copy_click(self, **event_args):
     open_form('admin.dashboard.loan_management')
+
+
