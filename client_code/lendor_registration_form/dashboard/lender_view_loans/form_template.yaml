@@ -156,7 +156,7 @@ components:
     - name: repeating_panel_6
       properties: {item_template: bank_users.repeating_panels.lendor, visible: false}
       type: RepeatingPanel
-      layout_properties: {grid_position: 'QDCYIC,GXOYKF'}
+      layout_properties: {grid_position: 'ETWLRO,AYMDBL'}
     - name: data_grid_1
       properties:
         role: null
