@@ -5,8 +5,7 @@ services:
   client_config: {}
   server_config: {}
 - source: /runtime/services/anvil/users.yml
-  client_config: {allow_signup: true, enable_automatically: true, use_email: true,
-    confirm_email: false, use_google: true, require_secure_passwords: true}
+  client_config: {allow_signup: true, enable_automatically: true, use_email: true, confirm_email: false, use_google: true, require_secure_passwords: true}
   server_config: {user_table: users}
 - source: /runtime/services/google.yml
   client_config: {}
@@ -17,12 +16,11 @@ services:
 - source: /runtime/services/anvil/secrets.yml
   client_config: {}
   server_config: {}
-startup: {type: form, module: admin.dashboard}
+startup: {type: form, module: bank_users.main_form.location_main_form}
 package_name: bank_client
 allow_embedding: false
 name: P2P Lending App
-runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
-  server_spec: null}
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox, server_spec: null}
 metadata: {title: 'P2P Bank ', description: this app provide services to person who are ready to invest and ready to give loan}
 startup_form: null
 db_schema:

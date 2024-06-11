@@ -1,37 +1,25 @@
 container: {type: DataRowPanel}
 components:
 - type: Label
-  properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
-    visible: true, text: '', font_size: null, font: '', spacing_above: small, icon_align: left,
-    spacing_below: small, italic: false, background: '', bold: false, underline: false,
-    icon: ''}
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: '', visible: true, text: '', font_size: null, font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false, background: '', bold: false, underline: false, icon: ''}
   name: label_1
   layout_properties: {column: HMMXCH}
   data_bindings:
   - {property: text, code: 'self.item[''loan_id'']'}
 - type: Label
-  properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
-    visible: true, text: '', font_size: null, font: '', spacing_above: small, icon_align: left,
-    spacing_below: small, italic: false, background: '', bold: false, underline: false,
-    icon: ''}
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: '', visible: true, text: '', font_size: null, font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false, background: '', bold: false, underline: false, icon: ''}
   name: label_2
   layout_properties: {column: NJWVHM}
   data_bindings:
   - {property: text, code: 'self.item[''borrower_name'']'}
 - type: Label
-  properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
-    visible: true, text: '', font_size: null, font: '', spacing_above: small, icon_align: left,
-    spacing_below: small, italic: false, background: '', bold: false, underline: false,
-    icon: ''}
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: '', visible: true, text: '', font_size: null, font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false, background: '', bold: false, underline: false, icon: ''}
   name: label_3
   layout_properties: {column: KIGYWK}
   data_bindings:
   - {property: text, code: 'self.item[''loan_amount'']'}
 - type: Link
-  properties: {role: null, url: '', align: left, tooltip: '', border: '', foreground: '',
-    visible: true, text: Veiw Details, font_size: null, wrap_on: mobile, font: '',
-    col_spacing: medium, spacing_above: small, icon_align: left, col_widths: '', spacing_below: small,
-    italic: false, background: '', bold: false, underline: false, icon: ''}
+  properties: {role: null, url: '', align: left, tooltip: '', border: '', foreground: '', visible: true, text: Veiw Details, font_size: null, wrap_on: mobile, font: '', col_spacing: medium, spacing_above: small, icon_align: left, col_widths: '', spacing_below: small, italic: false, background: '', bold: false, underline: false, icon: ''}
   name: link_1
   layout_properties: {column: VYJEJW}
   event_bindings: {click: link_1_click}
